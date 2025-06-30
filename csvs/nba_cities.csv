@@ -1,0 +1,38 @@
+city,subdivision_id,subdivision_name,lat,lng,nba_team
+New York,NY,New York,40.6943,-73.9249,New York Knicks
+Los Angeles,CA,California,34.1141,-118.4068,Los Angeles Lakers
+Los Angeles,CA,California,33.6610,-118.3554,Los Angeles Clippers
+Chicago,IL,Illinois,41.8375,-87.6866,Chicago Bulls
+Miami,FL,Florida,25.784,-80.2101,Miami Heat
+Houston,TX,Texas,29.786,-95.3885,Houston Rockets
+Dallas,TX,Texas,32.7935,-96.7667,Dallas Mavericks
+Philadelphia,PA,Pennsylvania,40.0077,-75.1339,Philadelphia 76ers
+Atlanta,GA,Georgia,33.7628,-84.422,Atlanta Hawks
+Washington,DC,District of Columbia,38.9047,-77.0163,Washington Wizards
+Washington,DC,District of Columbia,38.9047,-77.0163,Washington Bullets
+Boston,MA,Massachusetts,42.3188,-71.0852,Boston Celtics
+Phoenix,AZ,Arizona,33.5722,-112.0892,Phoenix Suns
+Detroit,MI,Michigan,42.3834,-83.1024,Detroit Pistons
+Seattle,WA,Washington,47.6211,-122.3244,Seattle SuperSonics
+San Francisco,CA,California,37.7558,-122.4449,Golden State Warriors
+Minneapolis,MN,Minnesota,44.9635,-93.2678,Minnesota Timberwolves
+Brooklyn,NY,New York,40.6501,-73.9496,Brooklyn Nets
+Brooklyn,NY,New York,40.6501,-73.9496,New Jersey Nets
+Denver,CO,Colorado,39.762,-104.8758,Denver Nuggets
+Portland,OR,Oregon,45.5371,-122.65,Portland Trail Blazers
+San Antonio,TX,Texas,29.4632,-98.5238,San Antonio Spurs
+Sacramento,CA,California,38.5677,-121.4685,Sacramento Kings
+Sacramento,CA,California,38.5677,-121.4685,Kansas City Kings
+Orlando,FL,Florida,28.4773,-81.337,Orlando Magic
+Indianapolis,IN,Indiana,39.7771,-86.1458,Indiana Pacers
+Cleveland,OH,Ohio,41.4764,-81.6805,Cleveland Cavaliers
+Charlotte,NC,North Carolina,35.2083,-80.8303,Charlotte Hornets
+Charlotte,NC,North Carolina,35.2083,-80.8303,Charlotte Bobcats
+Milwaukee,WI,Wisconsin,43.0642,-87.9675,Milwaukee Bucks
+Salt Lake City,UT,Utah,40.7776,-111.9311,Utah Jazz
+Memphis,TN,Tennessee,35.1087,-89.9663,Memphis Grizzlies
+Memphis,TN,Tennessee,35.1087,-89.9663,Vancouver Grizzlies
+Oklahoma City,OK,Oklahoma,35.4676,-97.5136,Oklahoma City Thunder
+New Orleans,LA,Louisiana,30.0687,-89.9288,New Orleans Pelicans
+New Orleans,LA,Louisiana,30.0687,-89.9288,New Orleans Hornets
+Toronto,ON,Ontario,43.6532,-79.3832,Toronto Raptors
