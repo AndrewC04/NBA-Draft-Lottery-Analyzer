@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('csvs/uscities.csv')
+df = pd.read_csv('data/uscities.csv')
 
 # Renaming column names, named subdivision to include Canada cities
 df = df.rename(columns={'state_id': 'subdivision_id', 'state_name': 'subdivision_name'})
@@ -24,7 +24,7 @@ tokeep = ['city', 'subdivision_id', 'subdivision_name', 'lat', 'lng']
 df_new = df[tokeep]
 
 # Save new dataframe to a new csv file
-df_new.to_csv('csvs/nba_cities.csv', index=False)
+df_new.to_csv('data/nba_cities.csv', index=False)
 
 # Adding Canadian NBA cities 
 new_data = [
@@ -83,4 +83,4 @@ for _, row in df_update.iterrows():
 
 # Final dataframe with NBA team names
 df_final = pd.DataFrame(expanded_rows)
-df_final.to_csv('csvs/nba_cities.csv', index=False)
+df_final.to_csv('data/nba_cities.csv', index=False)

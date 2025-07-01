@@ -2,15 +2,15 @@ import csv
 import sqlite3
 
 # Filenames
-lottery_csv = "csvs/lottery_data.csv"
-cities_csv = "csvs/nba_cities.csv"
-num_lottery_picks_csv = "csvs/num_lottery_picks.csv"
-top3_csv = "csvs/top3_probability_results.csv"
-unlikely_firsts_csv = "csvs/top10_unlikely_first.csv"
-most_firsts_csv = "csvs/most_firsts.csv"
+lottery_csv = "data/lottery_data.csv"
+cities_csv = "data/nba_cities.csv"
+num_lottery_picks_csv = "data/num_lottery_picks.csv"
+top3_csv = "data/top3_probability_results.csv"
+unlikely_firsts_csv = "data/top10_unlikely_first.csv"
+most_firsts_csv = "data/most_firsts.csv"
 
 # Connecting to database
-conn = sqlite3.connect("nba_data.db")
+conn = sqlite3.connect("db/nba_data.db")
 cursor = conn.cursor()
 
 # Creating tables from csv files and dropping if updating
