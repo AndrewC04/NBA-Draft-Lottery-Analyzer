@@ -20,6 +20,9 @@ Each visualization explores a different aspect of draft lottery history, with hi
 1. [Draft Lottery Page](https://github.com/AndrewC04/NBA-Draft-Lottery-Analyzer/tree/main/draft_analyzer/tableau/screenshots/Draft_Lottery_Page)
     1. A comprehensive background of the NBA draft lottery's purpose and modifications over the years.
     2. Draft lottery visualization by odds descending.
+    
+<img width="829" height="520" alt="Image" src="https://github.com/user-attachments/assets/7315693d-4a90-42b6-8e93-47daf803a4c0" />
+
 2. [Draft Results Page](https://github.com/AndrewC04/NBA-Draft-Lottery-Analyzer/tree/main/draft_analyzer/tableau/screenshots/Draft_Results_Page)
     1. Notable year points in draft lottery history. 
     2. Table of players taken in the draft lottery. 
@@ -88,7 +91,7 @@ pd.set_option('display.max_rows', None)
 print(df2)
 ```
 
-View the rest of the queries in the `notebook/queries.ipynb` [file](https://github.com/AndrewC04/NBA-Draft-Lottery-Analyzer/tree/main/draft_analyzer/notebook). 
+View the rest of the queries in the `notebook/queries.ipynb` [file](https://github.com/AndrewC04/NBA-Draft-Lottery-Analyzer/tree/main/draft_analyzer/notebook/queries.ipynb). 
 
 ## Technologies
 This project utilizes the following stack:
