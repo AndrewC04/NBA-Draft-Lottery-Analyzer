@@ -1,8 +1,8 @@
 # NBA Draft Luck Analyzer
 
 * [Tableau viz](https://public.tableau.com/app/profile/andrew.chau1438/viz/NBADraftLuckAnalyzer/NBADraftLuckAnalyzer)
-* [HTML version link to download](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/blob/main/draft_analyzer/tableau/draftlotteryanalyzer.html)
-* [Link to full screenshots of all Tableau pages](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/tree/main/draft_analyzer/tableau/screenshots)
+* [HTML version link to download](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/blob/main/draft_luck_analyzer/tableau/draftlotteryanalyzer.html)
+* [Link to full screenshots of all Tableau pages](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/tree/main/draft_luck_analyzer/tableau/screenshots)
 
 ## Table Of Contents
 * [Project Overview](#project-overview)
@@ -17,32 +17,32 @@ This project provides data driven exploration of the NBA draft lottery using Pyt
 
 ## Tableau Dashboards
 Each visualization explores a different aspect of draft lottery history, with historical data from its inception to today:
-1. [Draft Lottery Page](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/tree/main/draft_analyzer/tableau/screenshots/Draft_Lottery_Page)
+1. [Draft Lottery Page](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/tree/main/draft_luck_analyzer/tableau/screenshots/Draft_Lottery_Page)
     1. A comprehensive background of the NBA draft lottery's purpose and modifications over the years.
     2. Draft lottery visualization by odds descending.
 
 <img width="829" height="520" alt="Image" src="https://github.com/user-attachments/assets/7315693d-4a90-42b6-8e93-47daf803a4c0" />
 
-2. [Draft Results Page](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/tree/main/draft_analyzer/tableau/screenshots/Draft_Results_Page)
+2. [Draft Results Page](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/tree/main/draft_luck_analyzer/tableau/screenshots/Draft_Results_Page)
     1. Notable year points in draft lottery history. 
     2. Table of players taken in the draft lottery. 
     3. Visualizations for draft order outcome by odds and shifts.
 
 <img width="832" height="533" alt="Image" src="https://github.com/user-attachments/assets/95223d99-4ed4-4b7d-8313-fe51e0047120" />
 
-3. [Team History Page](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/tree/main/draft_analyzer/tableau/screenshots/Team_History_Page)
+3. [Team History Page](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/tree/main/draft_luck_analyzer/tableau/screenshots/Team_History_Page)
     1. Net shift visualization for pick change in draft lottery history.
     2. Interactive map with table and stats of a team's draft pick history, dynamic to team selection on map. 
 
 <img width="830" height="528" alt="Image" src="https://github.com/user-attachments/assets/56517716-8343-446a-b0b3-d4283f01c436" />
 
-4. [Pick Movement Page](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/tree/main/draft_analyzer/tableau/screenshots/Pick_Movement_Page)
+4. [Pick Movement Page](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/tree/main/draft_luck_analyzer/tableau/screenshots/Pick_Movement_Page)
     1. Shift trend comparisons of the two recent eras in draft lottery history for every lottery position. 
     2. Holistic view of every pick in draft lottery history by its original lottery position vs actual pick outcome. 
 
 <img width="828" height="528" alt="Image" src="https://github.com/user-attachments/assets/1828a446-04a7-41d3-9840-e21aefff9388" />
 
-5. [Draft Analysis Page](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/tree/main/draft_analyzer/tableau/screenshots/Draft_Analysis_Page)
+5. [Draft Analysis Page](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/tree/main/draft_luck_analyzer/tableau/screenshots/Draft_Analysis_Page)
     1. Visualizations of all top 3 outcomes in draft lottery history by unlikeliness, average shift for every pick position by era, and least likely first overall picks.
     2. Insights to how the latest changes to the draft lottery have affected the way teams work around worse chance probabilities.
 
@@ -102,7 +102,7 @@ pd.set_option('display.max_rows', None)
 print(df2)
 ```
 
-View the rest of the queries in the `notebook/queries.ipynb` [file](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/tree/main/draft_analyzer/notebook/queries.ipynb). 
+View the rest of the queries in the `notebook/queries.ipynb` [file](https://github.com/AndrewC04/NBA-Draft-Luck-Analyzer/tree/main/draft_luck_analyzer/notebook/queries.ipynb). 
 
 ## Technologies
 This project utilizes the following stack:
